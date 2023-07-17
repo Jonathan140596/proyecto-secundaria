@@ -1,0 +1,228 @@
+/* Estilos base */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h2,
+h3 {
+  text-align: center;
+}
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+}
+
+nav ul li:hover > ul.dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu li {
+  margin: 5px 0;
+}
+
+section {
+  padding: 20px;
+}
+
+section img {
+  max-width: 50%;
+  max-height: 50%;
+  height: auto;
+  border-radius: 7%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  animation: zoomIn 1s;
+}
+
+section ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+section ul li {
+  margin-bottom: 5px;
+}
+
+section ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+section h2 {
+  margin-bottom: 10px;
+}
+
+section h3 {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo img {
+    height: 30px;
+  }
+
+  nav ul li {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  nav ul li:last-child {
+    margin-bottom: 0;
+  }
+
+  .dropdown-menu {
+    position: static;
+    background-color: transparent;
+    padding: 0;
+    box-shadow: none;
+  }
+
+  section {
+    padding: 10px;
+  }
+
+  section h2 {
+    font-size: 18px;
+  }
+
+  section h3 {
+    font-size: 16px;
+  }
+}
+
+/* Estilos específicos para la sección Acerca de */
+section#acerca_de {
+  padding: 20px;
+  width: 50%;
+}
+
+section#acerca_de h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+section#acerca_de img {
+  max-width: 50%;
+  max-height: 50%;
+  height: auto;
+  border-radius: 7%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  animation: zoomIn 1s;
+}
+
+section#acerca_de p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+}
+p {
+  max-width: 50%;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  max-width: 50%;
+  max-height: 50%;
+}
+/* Animación */
+@keyframes zoomIn {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* Estilos para la animación al pasar el cursor sobre las imágenes */
+section img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Estilos para el listado de profesores */
+.profesor-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.profesor-list li {
+  width: 25%;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profesor-list img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.profesor-list h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.profesor-list p {
+  font-size: 14px;
+  color: #555555;
+}
