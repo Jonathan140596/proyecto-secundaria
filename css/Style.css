@@ -107,7 +107,7 @@ footer {
 section#inicio {
   position: relative;
   overflow: hidden;
-  background-image: url ("/img/Inicio-5.jpg"); 
+  background-image: url ("img/Inicio-5.jpg"); 
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
