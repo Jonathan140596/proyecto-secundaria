@@ -13,7 +13,7 @@ h3 {
 }
 
 header {
-  background-color: #7d6886;
+  background-color: #2e2d2e;
   padding: 20px;
   display: flex;
   align-items: center;
@@ -36,7 +36,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #2c0710; 
+  color: #eef2f3; 
   padding: 5px;
   font-size: 200%; 
 }
@@ -48,10 +48,10 @@ nav ul li:hover > ul.dropdown-menu {
 .dropdown-menu {
   display: none;
   position: absolute;
-  background-color: white;
+  background-color: rgb(31, 56, 78);
   padding: 10px;
   box-shadow: 0 2px 5px white;
-  color: white; /* Cambiar el color de las letras del menú desplegable a blanco */
+  color: rgb(16, 36, 39); /* Cambiar el color de las letras del menú desplegable a blanco */
 }
 
 .dropdown-menu li {
@@ -107,8 +107,8 @@ footer {
 section#inicio {
   position: relative;
   overflow: hidden;
-  background-image: url(img/Inicio-1.jpg); /* Reemplaza 'ruta_de_la_imagen.jpg' por la ruta de tu imagen */
-  background-size: cover; /* Hace que la imagen cubra todo el fondo */
+  background-image: url(/img/Inicio-5.jpg); /* Reemplaza 'ruta_de_la_imagen.jpg' por la ruta de tu imagen */
+  background-size: cover; /* Hace que   la imagen cubra todo el fondo */
   background-position: center; /* Centra la imagen en el fondo */
   background-repeat: no-repeat; /* Evita que la imagen se repita si es más pequeña que la sección */
   height: 100vh; /* Ajusta la altura de la sección al 100% del viewport (pantalla) */
@@ -249,8 +249,5 @@ section img:hover {
 
 
 
-.profesor-list p {
-  font-size: 14px;
-  color: #555555;
-}
+
 
