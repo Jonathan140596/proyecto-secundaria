@@ -107,11 +107,11 @@ footer {
 section#inicio {
   position: relative;
   overflow: hidden;
-  background-image: url(/img/Inicio-5.jpg); /* Reemplaza 'ruta_de_la_imagen.jpg' por la ruta de tu imagen */
-  background-size: cover; /* Hace que   la imagen cubra todo el fondo */
-  background-position: center; /* Centra la imagen en el fondo */
-  background-repeat: no-repeat; /* Evita que la imagen se repita si es más pequeña que la sección */
-  height: 100vh; /* Ajusta la altura de la sección al 100% del viewport (pantalla) */
+  background-image: url(img/Inicio-5.jpg); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100vh; 
 }
 
 
