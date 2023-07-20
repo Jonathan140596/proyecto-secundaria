@@ -51,7 +51,7 @@ nav ul li:hover > ul.dropdown-menu {
   background-color: rgb(31, 56, 78);
   padding: 10px;
   box-shadow: 0 2px 5px white;
-  color: rgb(16, 36, 39); /* Cambiar el color de las letras del menú desplegable a blanco */
+  color: rgb(16, 36, 39); /
 }
 
 .dropdown-menu li {
@@ -107,7 +107,7 @@ footer {
 section#inicio {
   position: relative;
   overflow: hidden;
-  background-image: url(/img/Inicio-5.jpg); 
+  background-image: url(img/Inicio-5.jpg); 
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
