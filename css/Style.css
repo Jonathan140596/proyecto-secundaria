@@ -3,13 +3,17 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: hsl(184, 59%, 38%); 
+  color: #fff; 
 }
+
 h2,
 h3 {
   text-align: center;
 }
+
 header {
-  background-color: #f2f2f2;
+  background-color: #7d6886;
   padding: 20px;
   display: flex;
   align-items: center;
@@ -17,7 +21,7 @@ header {
 }
 
 .logo img {
-  height: 50px;
+  height: 200px;
 }
 
 nav ul {
@@ -32,8 +36,9 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #333;
+  color: #2c0710; 
   padding: 5px;
+  font-size: 200%; 
 }
 
 nav ul li:hover > ul.dropdown-menu {
@@ -43,9 +48,10 @@ nav ul li:hover > ul.dropdown-menu {
 .dropdown-menu {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: white;
   padding: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px white;
+  color: white; /* Cambiar el color de las letras del menú desplegable a blanco */
 }
 
 .dropdown-menu li {
@@ -61,13 +67,13 @@ section img {
   max-height: 50%;
   height: auto;
   border-radius: 7%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(255, 247, 247, 0.2);
   margin-bottom: 20px;
   animation: zoomIn 1s;
 }
 
 section ul {
-  list-style-type: none;
+  list-style-type: none;  
   padding: 0;
   margin-bottom: 20px;
 }
@@ -78,7 +84,7 @@ section ul li {
 
 section ul li a {
   text-decoration: none;
-  color: #333;
+  color: #fff;
 }
 
 section h2 {
@@ -163,6 +169,7 @@ section#acerca_de p {
   line-height: 1.5;
   text-align: justify;
 }
+
 p {
   max-width: 50%;
   text-align: justify;
@@ -174,6 +181,7 @@ img {
   max-width: 50%;
   max-height: 50%;
 }
+
 /* Animación */
 @keyframes zoomIn {
   from {
@@ -203,7 +211,7 @@ section img:hover {
 .profesor-list li {
   width: 25%;
   padding: 10px;
-  background-color: #f2f2f2;
+  background-color: #112512;
   border-radius: 10px;
   margin-bottom: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -226,3 +234,4 @@ section img:hover {
   font-size: 14px;
   color: #555555;
 }
+
